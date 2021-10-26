@@ -1,0 +1,29 @@
+/* ids são mais específicos que classes */
+#high {
+  color: red;
+  background-color: black;
+}
+
+/* classes são mais específicas que elementos */
+.article-h2 {
+  color: #333;
+  background-color: rgb(245, 240, 240);
+}
+
+h2 {
+  color:firebrick;
+}
+
+/*prevalece devido à cascata*/
+h2 {
+  color: white;
+}
+
+h2 {
+  background-color: blue;
+}
+
+
+
+
+
