@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.media-picture {
+  /* spoiler do nosso modelo de caixa: height (altura) */
+  height: 600px;
+  width: 100%; /*largura*/
+  background-image: url('https://picsum.photos/700/400?grayscale');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
