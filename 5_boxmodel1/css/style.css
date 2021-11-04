@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+div {
+  background-color: brown;
+  padding: 50px;
+  border: 10px rgb(85, 14, 14) solid;
+  width: 100%;
+  height: 1000px;
+}
+
+p {
+  background-color: burlywood;
+  padding: 50px;
+  border: 5px rgb(85, 14, 14) double;
+  border-radius: 30px;
+  width: 200px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+#primeiro {
+  margin-bottom: 150px;
+}
+
+
