@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  padding: 40px;
+  border: black 5px solid;
+  background-color: coral;
+  font-size: 70px;
+  text-align: center;
+}
+
+#mae {
+  border: 10px coral solid;
+  padding: 30px;
+  position: relative; /*posicionando o ancestral para o absolute funcionar na div 2*/
+}
+
+/* posiciona o elemento em relação ao body
+OU
+em relação ao ancestral mais próximo que esteja posicionado 
+retira o elemento do normal flow (fluxo normal de renderização)*/
+.absolute {
+  position: absolute;
+  right: 30px;
+  bottom: -70px;
+}
+
+

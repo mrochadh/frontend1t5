@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  padding: 40px;
+  border: black 5px solid;
+  background-color: coral;
+  font-size: 70px;
+  text-align: center;
+}
+
+.mae {
+  border: 10px coral solid;
+  padding: 30px;
+}
+
+/* posiciona o elemento relativamente a si mesmo */
+.relative {
+  position: relative;
+  left: 100px;
+  top: -100px;
+  z-index: 1; /*por padrão, os elementos tem índice 0*/
+}
+
+.top {
+  position: relative;
+  z-index: 200;
+}
+
+
+
