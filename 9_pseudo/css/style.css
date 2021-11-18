@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans';
+}
+
+body {
+  height: 1500px;
+  padding: 50px;
+}
+
+div {
+  height: 50px;
+}
+
+input {
+  width: 100px;
+  height: 35px;
+  border: 0;
+  border-bottom: 2px black solid;
+}
+
+
+input:hover {
+  width: 150px;
+  border-bottom: 2px brown solid;
+}
+
+input:focus {
+  outline: none;
+  width: 150px;
+}
+
+input:invalid {
+  background-color: rgba(255, 0, 0, 0.507);
+}
+
+
+button {
+  background-color: brown;
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+button:disabled {
+  background-color: gray;
+  color: white;
+}
+
+a {
+  font-weight: 700;
+}
+
+
+a:link  {
+  color: blueviolet;
+}
+
+a:visited {
+  color: rgb(63, 27, 107);
+}
+
+a:hover  {
+  color: brown;
+}
+
+a:active {
+  color:rgb(17, 133, 7);
+}
+
+p:target {
+  background-color: rgba(255, 255, 0, 0.513);
+}
+
+/* enésimo elemento li*/
+li:nth-child(2n) {
+  background-color: rgba(0, 255, 255, 0.363);
+}
+
+#par3::first-letter {
+  color: red;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#par3::after{
+  content: "Atenção aqui!";
+  color: red;
+}
+
+
